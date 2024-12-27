@@ -1,0 +1,61 @@
+body {
+    background-color: var(--neutral-dark);
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cartao {
+    display: flex;
+    background-color: var(--neutral-grayish);
+    border-radius: 18px;
+    margin: 20px;
+    width: 540px;
+    height: 330px;
+}
+
+.cartao .informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+}
+
+.informacoes .numero-conselho {
+    color: var(--primary-neon);
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.informacoes .conselho {
+    text-wrap: wrap;
+    color: var(--primary-light);
+    font-size: 28px;
+    padding: 25px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.botao-atualizacao {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    transform: translateY(60%);
+}
+
+.botao-atualizacao:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
